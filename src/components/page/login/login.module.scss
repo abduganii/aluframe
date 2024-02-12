@@ -1,0 +1,100 @@
+.Login {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+
+    &__content {
+        height: 100vh;
+        width: 50%;
+        height: 100vh;
+        z-index: 10;
+
+        @media screen and (max-width:950px) {
+            width: 100%;
+        }
+
+        &__wrap {
+            width: 100%;
+            max-width: 280px;
+            margin-left: 30%;
+            padding-top: 15%;
+            height: 100vh;
+            padding-bottom: 54px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+
+
+            @media screen and (max-width:950px) {
+                margin: auto;
+                padding: auto;
+            }
+        }
+
+    }
+
+    &__title {
+        width: 100%;
+        color: #484038;
+        margin-top: 32px;
+        margin-bottom: 6px;
+        font-family: 'SF Pro Display';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+
+
+    }
+
+    &__text {
+        width: 100%;
+        margin-bottom: 30px;
+        color: rgba(118, 112, 106, 0.80);
+        font-family: 'SF Pro Display';
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+
+
+    }
+
+    &__Getter {
+        width: 100%;
+        max-width: 74px;
+        color: #484038;
+        font-family: 'SF Pro Display';
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+
+
+        a {
+            margin-top: auto;
+            color: #484038;
+            font-family: 'SF Pro Display';
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 800;
+            line-height: normal;
+
+
+        }
+    }
+
+    &__img {
+        width: 50%;
+        height: 100vh;
+        object-fit: cover;
+
+        @media screen and (max-width:950px) {
+            display: none;
+        }
+    }
+
+
+}
